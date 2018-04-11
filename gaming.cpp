@@ -128,17 +128,21 @@ int main()
         strcpy(s2,array2[a].c_str());
         insertion(&start2,s2);
     }
-    printf("---------------------------------------------------------------------------\n");
+    printf("-----------------------------------------------------------------------------------\n\n");
     printf("Prime[%d]\n",p);
     display(start1);
     printf("NonPrime[%d]\n",q);
     display(start2);
     int m=floor(q/2)-1;
     printf("-----------------------------------------------------------------------------------\n\n");
-    cout<<"Game Started:"<<'\n';
+    cout<<"Game Started:"<<endl;
+    cout<<endl;
     for(int i=0;i<q-1;i++){
         string b=array2[m];
-        cout<<"Starter is "<<b<<'\n';
+        cout<<"Starter is :  "<<b<<endl;
+        cout<<endl;
+        cout<<"First list is"<<endl;
+        cout<<endl;
         char *starter=new char[array1[m].size()+1];
         strcpy(starter,array1[m].c_str());
         deleteNode(&start1,starter);
