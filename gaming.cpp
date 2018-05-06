@@ -1,3 +1,7 @@
+/**
+ * @Author Name: Ankit Sharma
+ * @Description: This code creates a simulation of a game using three circular doubly linked lists
+ */
 #include<cstring>
 #include<iostream>
 #include<cstdlib>
